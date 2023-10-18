@@ -1,0 +1,40 @@
+.overview-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.overview-head-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.overview-head-right {
+    background-color: rgb(242, 242, 242);
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.overview-data {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 300px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.overview-data > Card {
+    height: 50%;
+}
+
+.data-box {
+    width: 50%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    align-items: flex-end;
+}

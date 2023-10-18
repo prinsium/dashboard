@@ -1,0 +1,25 @@
+.top-box {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+.card {
+    justify-content: space-evenly;
+    min-width: 18%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.cardstack {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-stack {
+    display: flex;
+    flex-direction: column;
+}
