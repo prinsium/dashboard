@@ -1,3 +1,9 @@
+.overview-card {
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .overview-head {
     display: flex;
     flex-direction: row;

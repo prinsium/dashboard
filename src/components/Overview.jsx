@@ -54,7 +54,7 @@ const Overview = () => {
   return (
     <div>
       <ThemeProvider theme={theme}>
-      <Card className="card" style={{boxShadow: "none"}}>
+      <Card className="overview-card" style={{boxShadow: "none",}}>
 
       <div className="overview-head">
         <div className="overview-head-left">

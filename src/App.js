@@ -11,8 +11,14 @@ function App() {
     <div className="App">
       <Navbar />
      <Top />
+     <div className='mid-section'>
+     <div className='mid-section-left'>
      <Overview />
-     {/* <Customers /> */}
+     </div>
+     <div className='mid-section-right'>
+     <Customers />
+     </div>
+     </div>
      <Product />
     </div>
   );

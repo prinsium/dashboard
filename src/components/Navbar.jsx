@@ -51,6 +51,10 @@ const theme = createTheme({
         fontSize: 16,
         color: '#f2f2f2',
       },
+      subtitle2: {
+        fontSize: 12,
+        color: '#f2f2f2',
+      },
     body1: {
       fontWeight: 650,
     },
@@ -120,7 +124,7 @@ const Navbar = () => {
           </div>
           <div className='bottom-heading' style={{backgroundColor: '#350aa2',alignContent: 'flex-end', justifyContent: 'center'}}>
             <Card sx={{ maxWidth: 345, boxShadow: 'none', backgroundColor: '#350aa2', marginBottom: '1rem' }}>
-                <CardHeader 
+                <CardHeader  sx={{color: '#f2f2f2'}}
                     avatar={
                         <Avatar aria-label="recipe">
                             <img src="https://freerangestock.com/sample/66142/photo.jpg" alt="avatar" width="70px" />
@@ -128,11 +132,11 @@ const Navbar = () => {
                         }
                     action={
                         <IconButton aria-label="settings">
-                        <MdExpandMore />
+                        <MdExpandMore style={{color: '#f2f2f2'}}/>
                         </IconButton>
                     }
                     title="Evano"
-                    subheader="Project Manager"
+                    subheader={<Typography variant='subtitle3'>Project Manager</Typography>}
                  />
             </Card>
             </div>

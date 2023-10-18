@@ -7,7 +7,7 @@ import {AiOutlineArrowDown, AiOutlineArrowUp} from 'react-icons/ai';
 import dollor from '../assets/top/dollorsvg.svg';
 import balance from '../assets/top/balancesvg.svg';
 import note from '../assets/top/notes.svg';
-import cart from '../assets/top/cart.svg';
+import bag from '../assets/top/bagsvg.svg';
 
 const theme = createTheme({
   typography: {
@@ -34,7 +34,7 @@ const Top = () => {
             <div className='text-stack' >
             <Typography variant="subtitle1">Earning</Typography>
             <Typography>$198k</Typography>
-            <Typography variant="subtitle1"><AiOutlineArrowUp />2% this month</Typography>
+            <Typography variant="subtitle1"><AiOutlineArrowUp style={{color: '#10e204'}} /><span style={{color: '#10e204'}} >2%</span> this month</Typography>
             </div>
             </ListItem>
             </div>
@@ -49,7 +49,7 @@ const Top = () => {
             <div className='text-stack' >
             <Typography variant="subtitle1">Orders</Typography>
             <Typography>$2.4k</Typography>
-            <Typography variant="subtitle1"><AiOutlineArrowDown />2% this month</Typography>
+            <Typography variant="subtitle1"><AiOutlineArrowDown style={{color: '#f44336'}}  /><span style={{color: '#f44336'}} >2%</span> this month</Typography>
             </div>
             </ListItem>
             </div>
@@ -64,7 +64,7 @@ const Top = () => {
             <div className='text-stack' >
             <Typography variant="subtitle1">Balance</Typography>
             <Typography>$2.4k</Typography>
-            <Typography variant="subtitle1"><AiOutlineArrowDown />2% this month</Typography>
+            <Typography variant="subtitle1"><AiOutlineArrowDown style={{color: '#f44336'}}  /><span style={{color: '#f44336'}} >2%</span> this month</Typography>
             </div>
             </ListItem>
             </div>
@@ -73,13 +73,13 @@ const Top = () => {
           <Card className="card" style={{boxShadow: "none"}}>
             <div className='cardstack' >
               <ListItem>
-            <img src={cart} width={'80px'} />
+            <img src={bag} width={'80px'} />
             </ListItem>
             <ListItem>
             <div className='text-stack' >
             <Typography variant="subtitle1">Total Sales</Typography>
             <Typography>$89k</Typography>
-            <Typography variant="subtitle1"><AiOutlineArrowUp />3% this month</Typography>
+            <Typography variant="subtitle1"><AiOutlineArrowUp style={{color: '#10e204'}} /><span style={{color: '#10e204'}} >2%</span> this month</Typography>
             </div>
             </ListItem>
             </div>

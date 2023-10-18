@@ -11,8 +11,7 @@ const theme = createTheme({
       color: '#5D7465',
     },
     body1: {
-      fontSize: 22,
-      fontWeight: 800,
+      fontWeight: 650,
     },
   },
 });
@@ -21,7 +20,7 @@ const Customers = () => {
   return (
     <div>
     <ThemeProvider theme={theme}>
-    <Card className="card" style={{boxShadow: "none"}}>
+    <Card className="customer-card" style={{boxShadow: "none", minWidth: 380}}>
     <div className="customer-head">
     <Typography>Customers</Typography>
     <Typography variant="subtitle1">Customers that buy products</Typography>
